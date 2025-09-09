@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SaiNarasimhaReddy20/Cloud-Config-Server
+          default-label: main
+          clone-on-start: true
+          search-paths: '*.yml'
+
+server:
+  port: 9196
