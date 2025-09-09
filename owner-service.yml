@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: owner-service
+  datasource:
+    url: jdbc:h2:mem:ownerdb
+
+server:
+  port: 8082
