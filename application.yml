@@ -32,7 +32,7 @@ eureka:
     instance-id: ${spring.application.name}:${server.port}
 
 jwt:
-  secret: playStoreSecretKey2023
+  secret: playStoreSecretKey2023ThisIsAVeryLongSecretKeyForJWT
   expiration: 86400000
 
 logging:
