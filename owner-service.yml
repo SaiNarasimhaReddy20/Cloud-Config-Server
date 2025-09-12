@@ -3,8 +3,7 @@ spring:
     name: owner-service
   datasource:
     url: jdbc:h2:mem:ownerdb
-  security:
-    enabled: false
+  
 
 server:
   port: 8082
